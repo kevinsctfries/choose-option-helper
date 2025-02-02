@@ -50,9 +50,9 @@ const ChooseOption = () => {
           id="username-input"
           value={userName}
           onChange={handleInputChange}
-          placeholder="username"
           minLength={1}
           maxLength={12}
+          placeholder="username"
         />
       </div>
     </>

@@ -46,17 +46,36 @@
 }
 
 .input-section {
+  display: flex;
   font-size: 3rem;
   margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  color: black;
   gap: 1rem;
-  display: flex;
-  justify-content: center;
+  background-color: #d0bc95;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .input-section input {
   font-family: "osrs";
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  color: #2c29e6;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 1100px) {
+  .input-section {
+    font-size: 2rem;
+  }
+
+  .input-section input {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
