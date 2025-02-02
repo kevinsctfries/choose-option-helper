@@ -1,7 +1,8 @@
 {
   "name": "osrs-user-choose-option",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "homepage": "https://kevinsctfries.github.io/choose-option-helper/",
   "type": "module",
   "scripts": {
     "dev": "vite",
