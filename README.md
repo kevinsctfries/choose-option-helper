@@ -16,7 +16,7 @@ Simple and easy-to-use interface
 
 ## **Live Demo**
 
-🔗 **[Try it out here](your-live-demo-link-goes-here)**
+🔗 **[Try it out here](https://kevinsctfries.github.io/choose-option-helper/)**
 
 ## **Installation**
 
