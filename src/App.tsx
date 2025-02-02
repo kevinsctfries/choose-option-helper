@@ -1,5 +1,6 @@
 import "./App.css";
 import ChooseOption from "./Components/ChooseOption/ChooseOption";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           possible, but I apologize for any minor discrepancies.
         </p>
       </div>
+      <Footer />
     </>
   );
 }

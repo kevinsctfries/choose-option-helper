@@ -1,5 +1,5 @@
 .menu {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 5px;
   margin: auto;
   width: max-content;
@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  line-height: 4rem;
+  line-height: 3rem;
   text-shadow: 4px 4px 4px black;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .username {
-  color: inherit; /* Keeps the username color unchanged */
+  color: inherit;
 }
 
 .user-level {
@@ -46,14 +46,53 @@
 }
 
 .input-section {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 2rem;
+  gap: 1rem;
   display: flex;
   justify-content: center;
 }
 
 .input-section input {
+  font-family: "osrs";
+  font-weight: bold;
   font-size: 1.5rem;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  .option-list {
+    margin: 2px;
+    padding: 1px;
+    border: 2px solid black;
+  }
+
+  .option-text {
+    gap: 2px;
+    line-height: 1rem;
+    text-shadow: 2px 2px 1px black;
+  }
+
+  .user-level {
+    margin-left: 8px;
+  }
+
+  .input-section {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-section input {
+    font-family: "osrs";
+    font-weight: bold;
+    font-size: 1rem;
+  }
 }
