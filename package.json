@@ -2,11 +2,8 @@
   "name": "osrs-user-choose-option",
   "private": true,
   "version": "1.0.1",
-  "homepage": "https://kevinsctfries.github.io/choose-option-helper",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
