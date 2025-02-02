@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "osrs";
+  src: url("./assets/fonts/runescape.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "osrs-bold";
+  src: url("./assets/fonts/runescape_bold.ttf") format("truetype");
+}
+
+:root {
+  font-family: "osrs";
+  color: white;
+  background-color: #756651;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

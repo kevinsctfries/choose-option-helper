@@ -1,0 +1,59 @@
+.menu {
+  font-size: 4rem;
+  letter-spacing: 5px;
+  margin: auto;
+  width: max-content;
+  background-color: #5d5447;
+}
+
+.choose-option {
+  display: flex;
+  margin: 2px;
+  padding-left: 2px;
+  background-color: black;
+  color: #5d5447;
+}
+
+.option-list {
+  font-weight: bold;
+  margin: 2px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  border: 6px solid black;
+}
+
+.option-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 4rem;
+  text-shadow: 4px 4px 4px black;
+}
+
+.option-text:hover .action {
+  color: yellow;
+  cursor: pointer;
+}
+
+.username {
+  color: inherit; /* Keeps the username color unchanged */
+}
+
+.user-level {
+  margin-left: 24px;
+  color: #ff0000;
+}
+
+.input-section {
+  font-size: 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input-section input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
