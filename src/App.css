@@ -1,15 +1,26 @@
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 0;
-  padding: 1rem 0;
-  color: yellow;
-  text-shadow: 4px 4px 4px black;
+.info-text {
+  background-color: #d0bc95;
+  margin: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
-p {
+.info-text p {
+  margin: 0;
+  color: black;
+  padding: 0.5rem;
   font-size: 1.5rem;
   text-align: center;
+}
+
+.info-text h1,
+h2,
+h3 {
+  color: black;
+  text-align: center;
+  border-top: 1px solid black;
+  padding-top: 1rem;
+  margin-bottom: 0;
 }
 
 .main {
