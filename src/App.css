@@ -29,11 +29,13 @@ h3 {
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 1.5rem;
+  .info-text h1,
+  h2,
+  h3 {
+    font-size: 1.125rem;
   }
 
-  p {
+  .info-text p {
     font-size: 1rem;
   }
 }
