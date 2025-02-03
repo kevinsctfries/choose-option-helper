@@ -127,13 +127,13 @@
   }
 
   .option-text {
-    gap: 2px;
+    gap: 4px;
     line-height: 1rem;
     text-shadow: 2px 2px 1px black;
   }
 
   .user-level {
-    margin-left: 8px;
+    margin-left: 6px;
   }
 
   .input-section {
@@ -143,12 +143,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 65%;
   }
 
   .input-section input {
     font-family: "osrs";
     font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .error-box {
     font-size: 1rem;
   }
 }
