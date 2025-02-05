@@ -8,13 +8,12 @@
   src: url("./assets/fonts/runescape_bold.ttf") format("truetype");
 }
 
-:root {
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
   font-family: "osrs";
   color: white;
   background-color: #756651;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
